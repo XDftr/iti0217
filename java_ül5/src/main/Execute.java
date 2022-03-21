@@ -36,8 +36,8 @@ public class Execute {
                 }
             }
         }
-        System.out.println(i + " " + u + " " + d + " " +b);
-        System.out.println(firstEx);
+        System.out.println("Number of persons: " + i + "\n" + "Number of pairs: " + u + "\n" +
+                "Number of valid tries: " + d + "\n" + "Number of final answers: " + b);
     }
 
     public void main() {
