@@ -1,0 +1,11 @@
+[ver:1,total:7680,branch:main]
+java_ül5/src/main/Execute.java:4035,1647892800:796,1647896400:2848,1647900000:391,m
+java_ül5/src/main/services/ReadFromFile.java:1418,1647892800:1418,m
+.gtm/Application-> Execute.app:901,1647892800:91,1647896400:752,1647900000:58,r
+java_ül5/src/main/services/WriteToFile.java:900,1647892800:737,1647900000:163,m
+java_ül5/src/objects/Person.java:176,1647889200:176,d
+java_ül5/src/objects/Book.java:112,1647889200:112,d
+java_ül5/src/main/output.txt:108,1647900000:108,m
+java_ül5/src/Execute.java:12,1647889200:12,d
+java_ül5/src/services/ReadFromFile.java:10,1647892800:10,d
+java_ül5/src/services/WriteToFile.java:8,1647892800:8,d
