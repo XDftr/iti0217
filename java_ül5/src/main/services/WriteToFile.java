@@ -5,16 +5,15 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class WriteToFile {
 
     final static String outputFilePath
-            = "C:\\Users\\Deniel Konstantinov\\Documents\\iti0217\\java_ül5\\src\\main\\output.txt";
+            = "C:\\Users\\Deniel Konstantinov\\Documents\\iti0217\\java_ül5\\src\\main\\";
 
-    public void writeToFile(ArrayList<String> allData) {
+    public void writeToFile(ArrayList<String> allData, String filename) {
         // new file object
-        File file = new File(outputFilePath);
+        File file = new File(outputFilePath + filename);
 
         try (BufferedWriter bf = new BufferedWriter(new FileWriter(file))) {
             for (String i : allData) {

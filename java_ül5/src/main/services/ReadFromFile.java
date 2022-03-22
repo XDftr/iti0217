@@ -18,21 +18,21 @@ public class ReadFromFile {
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;
             while ((line = br.readLine()) != null) {
-                String personID = line.split(",")[1];
-                String bookID = line.split(",")[0];
+                String personID = line.split(",")[0];
+                String bookID = line.split(",")[1];
 
-                if (bookID.equals("person_id")) {
+                if (personID.equals("person_id")) {
                     continue;
                 }
 
-                if (allData.containsKey(personID)) {
-                    ArrayList<String> books = allData.get(personID);
-                    books.add(bookID);
-                    allData.replace(personID, books);
+                if (allData.containsKey(bookID)) {
+                    ArrayList<String> persons = allData.get(bookID);
+                    persons.add(personID);
+                    allData.replace(bookID, persons);
                 } else {
-                    ArrayList<String> books = new ArrayList<>();
-                    books.add(bookID);
-                    allData.put(personID, books);
+                    ArrayList<String> persons = new ArrayList<>();
+                    persons.add(personID);
+                    allData.put(bookID, persons);
                 }
 
             }
