@@ -85,7 +85,6 @@ public class Execute {
                     int pb = personB.size();
 
                     if (pb > 0 && pa > 0) {
-                        b++;
                         ArrayList<String> personAA = allData.get(key);
                         ArrayList<String> personBB = map2.getValue();
 
@@ -101,10 +100,12 @@ public class Execute {
                         String c = map2.getKey() + "," + key + "," + percentB;
 
                         if (percentA > 0) {
+                            b++;
                             thirdEx.add(a);
                         }
 
                         if (percentB > 0) {
+                            b++;
                             thirdEx.add(c);
                         }
 
