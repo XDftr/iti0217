@@ -16,7 +16,7 @@ Andmekaevandamine
 * Number of persons: 16470
 * Number of pairs: 271260900
 * Number of valid tries: 271244430
-* Number of final answers: 11340
-* Program C finished in: 17 seconds.
+* Number of final answers: 5669
+* Program C finished in: 16 seconds.
 
 ###Ülesande 5'e käivitamiseks, pange tööle Execute.java.
