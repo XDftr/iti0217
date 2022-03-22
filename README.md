@@ -19,4 +19,4 @@ Andmekaevandamine
 * Number of final answers: 5669
 * Program C finished in: 16 seconds.
 
-### Ülesande 5'e käivitamiseks, pange tööle Execute.java.
+### Ülesande 5 käivitamiseks, pange tööle Execute.java.
